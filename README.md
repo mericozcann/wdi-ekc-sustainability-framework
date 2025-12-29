@@ -71,31 +71,38 @@ Our deliverables emphasize:
 
 ```mermaid
 flowchart TD
-  A[Dataset Release (First Monday of October)] --> B[Dataset Intake & Governance]
-  B --> B1[Database Guidelines]
-  B --> B2[Ethical Guidelines (ASA-aligned)]
-  B --> C[Exploratory Data Analysis]
-  C --> C1[Missingness & Coverage Diagnostics]
-  C --> C2[Outliers & Scaling Checks]
-  C --> C3[Regional/Topic Balance Checks]
-  C --> D[Analysis Design]
-  D --> D1[Define Time Window (e.g., 2000–2020)]
-  D --> D2[Transformations (log GDP, winsorization if needed)]
-  D --> E[EKC Modeling]
-  E --> E1[Pooled OLS: CO2 ~ log(GDP) + log(GDP)^2]
-  E --> E2[Model Diagnostics & Visual Validation]
-  E --> F[Green Growth Identification]
-  F --> F1[GDP Increase & CO2 Decrease (2000–2020)]
-  F --> F2[Country Profiles & Evidence Plots]
-  F --> G[Reporting & Communication]
-  G --> G1[Final Analysis Report (PDF)]
-  G --> G2[Slide Deck (PPTX)]
-  G --> G3[5-Min Video (MP4)]
-  G --> H[Post-Final Development]
-  H --> H1[Panel FE/RE Validation + Hausman Test]
-  H --> H2[GridSearchCV Optimization (Degree 1–3, Alpha 0.01–1000)]
-  H --> H3[Turning Point Computation]
-  H --> H4[Power BI/Tableau Templates & Executive Summary]
+    A[Dataset Release - October] --> B[Dataset Intake and Governance]
+
+    B --> B1[Database Guidelines]
+    B --> B2[Ethical Guidelines ASA]
+
+    B --> C[Exploratory Data Analysis]
+    C --> C1[Missingness and Coverage]
+    C --> C2[Outliers and Scaling]
+    C --> C3[Regional and Topic Balance]
+
+    C --> D[Analysis Design]
+    D --> D1[Define Time Window 2000-2020]
+    D --> D2[Data Transformations]
+
+    D --> E[EKC Modeling]
+    E --> E1[Pooled OLS EKC Model]
+    E --> E2[Model Diagnostics]
+
+    E --> F[Green Growth Identification]
+    F --> F1[GDP Increase]
+    F --> F2[CO2 Decrease]
+
+    F --> G[Reporting and Communication]
+    G --> G1[Final Analysis Report]
+    G --> G2[Slide Deck]
+    G --> G3[Video Presentation]
+
+    G --> H[Post Final Development]
+    H --> H1[Panel FE RE Validation]
+    H --> H2[Model Optimization]
+    H --> H3[Turning Point Estimation]
+    H --> H4[BI Dashboards and Executive Summary]
 ```
 
 ## How to Use
