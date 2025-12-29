@@ -8,6 +8,24 @@ Our deliverables emphasize:
 - **Ethical practice** aligned with the **ASA Ethical Guidelines for Statistical Practice**,
 - **Clear communication** through a 5-minute video and a concise slide deck.
 
+## Project Execution and Technical Scope
+
+The technical execution of this project was carried out end-to-end within a highly constrained timeframe.  
+All core analytical and engineering components were **individually designed and implemented by the project lead within approximately 10 hours**, culminating in a complete and submission-ready competition package.
+
+Within the scope of the project:
+
+- A comprehensive exploratory phase was completed, including **six focused EDA reports** and a **general EDA report**, addressing data quality, missingness, outliers, and structural imbalances.
+- An **environmental sustainability–oriented database structure** was designed to support EKC-based analysis and downstream reporting.
+- Using **Python**, the workflow covered data cleaning, transformations, EKC modeling, analytical evaluation, and **hyperparameter optimization**.
+- To enable rapid transition to reporting and visualization tools, **report-ready CSV outputs** were generated for direct use in **Power BI and Tableau** (visual dashboards were not produced at this stage).
+
+## Team and Acknowledgements
+
+Other team members contributing to the conceptual and theoretical aspects of the project include **Ali Kınış** and **Ahmet Aslan**.
+
+We also gratefully acknowledge **Prof. Dr. Ceylan Yozgatligil** for providing clear and guiding instructions during the application and submission process of the ASA International Data Quest.
+
 ---
 
 ## Competition Context (ASA International Data Quest)
