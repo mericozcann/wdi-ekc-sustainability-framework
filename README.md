@@ -97,3 +97,44 @@ flowchart TD
   H --> H3[Turning Point Computation]
   H --> H4[Power BI/Tableau Templates & Executive Summary]
 ```
+
+## How to Use
+
+1. Open **WDI - EKC Sustainability Assessment Framework.ipynb** to reproduce the full sustainability and EKC analysis workflow, including data filtering, transformations, modeling, and interpretation.
+
+2. Use **Database.ipynb** to review how the WDI dataset is loaded, structured, and prepared for analysis. This notebook documents dataset handling and preprocessing decisions.
+
+3. Read **General EDA Report.pdf** to understand the exploratory data analysis results, including missing data patterns, outlier behavior, regional imbalances, and key data quality constraints.
+
+4. Review **Final Analysis Report.pdf** for the consolidated findings covering the 2000–2020 period, including EKC modeling results, identification of green growth candidates, and regional dynamics.
+
+5. For competition-ready outputs, refer to:
+   - **Work Presentation.pptx** for the concise slide deck prepared under ASA International Data Quest rules.
+   - **ASA DATA QUEST Smyrna DataLab Team Presentation by Meriç Özcan.mp4** for the 5-minute video presentation aligned with the slides.
+
+---
+
+## Ethics and Transparency
+
+This project is explicitly aligned with the **ASA Ethical Guidelines for Statistical Practice**. Ethical considerations are embedded throughout the workflow, with emphasis on:
+
+- Clear documentation of data sources, preprocessing steps, and time-window restrictions  
+- Transparency regarding model assumptions, transformations, and limitations  
+- Explicit separation of exploratory and confirmatory analyses  
+- Responsible communication of uncertainty and limits to generalizability  
+
+Detailed ethical procedures and checklists are documented in **DataLab Ethical Guidelines.pdf**.
+
+---
+
+## Credits
+
+**Smyrna DataLab Team**  
+Repository and presentation prepared by **Meriç Özcan**.
+
+---
+
+## License
+
+This repository is intended for educational and research purposes.  
+If you reuse or adapt any part of this work, please provide appropriate attribution to the repository and comply with the original dataset’s terms of use.
